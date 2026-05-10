@@ -1,7 +1,7 @@
 import { fazerLogin } from "../src/fazerLogin.js";
 import assert from 'node:assert';
 
-describe.only('Testando login do usuário', function() {
+describe('Testando login do usuário', function() {
     it('Realizar login com sucesso quando o email for encontrado e a senha estiver correta', function() {
         // Arrange (Dado que, Pré-condição)
         const email = 'email@existente.com';
